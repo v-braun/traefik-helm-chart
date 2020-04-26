@@ -1,5 +1,5 @@
 apiVersion: v2
-name: traefik
+name: vbr-traefik
 description: Traefik with public available dashboard
 
 # A chart can be either an 'application' or a 'library' chart.
