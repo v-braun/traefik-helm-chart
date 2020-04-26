@@ -66,5 +66,5 @@ Make sure to read these guides before getting started:
 - [Code of Conduct](https://github.com/v-braun/traefik-helm-chart/blob/master/CODE_OF_CONDUCT.md)
 
 ## License
-**catcher** is available under the MIT License. See [LICENSE](https://github.com/v-braun/traefik-helm-chart/blob/master/LICENSE) for details.
+**traefik-helm-chart** is available under the MIT License. See [LICENSE](https://github.com/v-braun/traefik-helm-chart/blob/master/LICENSE) for details.
 
