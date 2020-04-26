@@ -40,12 +40,12 @@ entryPoints:
 ## Develop
 After changes in this repo, the following steps should be executed:  
 
-1.: Increase the version number in `Chart.yaml` 
-2.: Package the Chart
+1. Increase the version number in `Chart.yaml`
+2. Package the Chart
 ```
 helm package .
 ```
-3.: Index the repo
+3. Index the repo
 ``` shell
 helm repo index .
 ```
