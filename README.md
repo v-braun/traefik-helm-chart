@@ -7,7 +7,7 @@ This Helm Chart is based on the [official Traefk Chart](https://github.com/conta
 ```shell
 helm repo add vbr https://raw.githubusercontent.com/v-braun/traefik-helm-chart/master/
 helm repo update
-helm install traefik vbr/traefik
+helm install traefik vbr/vbr-traefik
 ```
 
 ### Configuration
