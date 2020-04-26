@@ -2,6 +2,14 @@
 
 This Helm Chart is based on the [official Traefk Chart](https://github.com/containous/traefik-helm-chart), but add also an ``IngressRoute` and a `Midleware` for the Traefik Dashboard to make it public available
 
+## Installation
+
+```shell
+helm repo add vbr https://raw.githubusercontent.com/v-braun/traefik-helm-chart/master/
+helm repo update
+helm install traefik vbr/traefik
+```
+
 ### Configuration
 
 ```yaml
@@ -29,16 +37,6 @@ entryPoints:
 
 ```
 
-## Installation
-
-```shell
-helm repo add vbr https://raw.githubusercontent.com/v-braun/traefik-helm-chart/master/
-helm repo update
-helm install traefik vbr/traefik
-```
-
-
-
 
 
 ## Authors
@@ -51,9 +49,9 @@ helm install traefik vbr/traefik
 ## Contributing
 
 Make sure to read these guides before getting started:
-- [Contribution Guidelines](https://github.com/v-braun/catcher/blob/master/CONTRIBUTING.md)
-- [Code of Conduct](https://github.com/v-braun/catcher/blob/master/CODE_OF_CONDUCT.md)
+- [Contribution Guidelines](https://github.com/v-braun/traefik-helm-chart/blob/master/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/v-braun/traefik-helm-chart/blob/master/CODE_OF_CONDUCT.md)
 
 ## License
-**catcher** is available under the MIT License. See [LICENSE](https://github.com/v-braun/catcher/blob/master/LICENSE) for details.
+**catcher** is available under the MIT License. See [LICENSE](https://github.com/v-braun/traefik-helm-chart/blob/master/LICENSE) for details.
 
