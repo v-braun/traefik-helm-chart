@@ -32,7 +32,7 @@ entryPoints:
 ## Installation
 
 ```shell
-helm repo add vbr https://github.com/v-braun/traefik-helm-chart
+helm repo add vbr https://raw.githubusercontent.com/v-braun/traefik-helm-chart/master/
 helm repo update
 helm install traefik vbr/traefik
 ```
