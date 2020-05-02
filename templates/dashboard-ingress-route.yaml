@@ -29,4 +29,4 @@ spec:
     middlewares:
       - name: {{ template "traefik.fullname" . }}-auth-middleware
   tls:
-    certResolver: {{ .Release.certResolver }}
+    certResolver: {{ .Values.certResolver }}
