@@ -1,3 +1,12 @@
+# IMPORtANT
+This method is currentley not working with Traefik 2.2
+You should deploy Traefik and after it was started successfully deploy the needed IngressRoute.  
+Otherwise letsencrypt certificate generation will fail.
+
+See [this terraform script](https://github.com/v-braun/aks-jump-starter/blob/master/helm.tf) that deploy the official Traefik Helm Chart and additionally the IngressRoute and middleware.
+
+
+
 # Traefik Helm Chart with Dashboard
 
 This Helm Chart is based on the [official Traefk Chart](https://github.com/containous/traefik-helm-chart), but add also an ``IngressRoute` and a `Midleware` for the Traefik Dashboard to make it public available
