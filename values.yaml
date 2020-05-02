@@ -14,6 +14,9 @@ entryPoints:
   - web
   - websecure
 
+httpRedirectEntryPoint:
+  - web
+
 # configure here the main traefik chart values
 # see here: https://github.com/containous/traefik-helm-chart/blob/master/traefik/values.yaml
 # 

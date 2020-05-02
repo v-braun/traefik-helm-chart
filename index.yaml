@@ -3,7 +3,7 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2020-04-26T22:25:06.88086+02:00"
+    created: "2020-05-02T13:15:55.683019+02:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 03964cad523150c11fe4929e884abfd499e188d4dbe9be051bc8e1e3dc43eda1
     home: https://traefik.io/
@@ -27,7 +27,21 @@ entries:
   vbr-traefik:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-26T22:25:06.8793+02:00"
+    created: "2020-05-02T13:15:55.681768+02:00"
+    dependencies:
+    - name: traefik
+      repository: https://containous.github.io/traefik-helm-chart
+      version: 8.1.0
+    description: Traefik with public available dashboard
+    digest: fc1b40d278de2bf994d7930b584b310464b37e4d45bce44b9405262f706f20d3
+    name: vbr-traefik
+    type: application
+    urls:
+    - vbr-traefik-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2020-05-02T13:15:55.679397+02:00"
     dependencies:
     - name: traefik
       repository: https://containous.github.io/traefik-helm-chart
@@ -39,4 +53,4 @@ entries:
     urls:
     - vbr-traefik-1.0.0.tgz
     version: 1.0.0
-generated: "2020-04-26T22:25:06.877819+02:00"
+generated: "2020-05-02T13:15:55.676627+02:00"
