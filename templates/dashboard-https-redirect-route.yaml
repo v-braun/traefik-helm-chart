@@ -20,5 +20,8 @@ spec:
   routes:
   - match: HostRegexp(`{any:.+}`)
     kind: Rule
+    services:
+      - name: noop@internal
+        kind: TraefikService
     middlewares:
       - name: {{ template "traefik.fullname" . }}-https-redirect-middleware
