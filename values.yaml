@@ -8,7 +8,7 @@ ingressRoute:
 # secret used for basic auth
 # secret should be generated with htpaswd (user:hashedpassword)
 authSecretName: "my secret"
-
+certResolver: "default"
 # entry points that the dashboard should be available on
 entryPoints:
   - web

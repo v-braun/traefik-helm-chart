@@ -28,3 +28,5 @@ spec:
       kind: TraefikService
     middlewares:
       - name: {{ template "traefik.fullname" . }}-auth-middleware
+  tls:
+    certResolver: {{ .Release.certResolver }}
